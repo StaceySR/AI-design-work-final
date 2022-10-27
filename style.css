@@ -1,0 +1,151 @@
+body{
+  background-color: #000;
+}
+
+#canvas{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:1;
+  /* border: 8px #884898 solid;
+    border-radius: 20px; */
+}
+
+#video{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:0;
+  /* border: 8px #884898 solid; */
+    /* border-radius: 20px; */
+}
+
+.valueDisplay{
+  position: relative;
+  margin-left: 1310px; /*Or 665px*/
+  color: #a1a1a1;
+
+  font-size: 12pt;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+}
+
+.Slider{
+  -webkit-appearance: none;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 1310px;/*Or 665px*/
+  margin-bottom: 25px;
+
+  background: none;
+  height:5px;
+  width:180px;
+  border-radius: 20px;
+  border: 1px solid #a1a1a1;
+}
+
+.Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width:8px;
+  height:15px;
+  border-radius: 5px;
+  background: #a1a1a1;
+  outline: none;
+}
+
+
+.imageButtons{
+  position: relative;
+  margin-top:10px;
+
+  width:30px;
+  height:30px;
+  border: none;
+
+  cursor: pointer;
+}
+
+#screenshot_button{
+  margin-top: 5px;
+  margin-left: 1310px;/*Or 675px*/
+  background: url('/images/screenshot.png');
+}
+
+#save_drawing_button{
+  margin-top: 5px;
+  margin-left: 20px;
+  background: url('/images/savejson.png');
+}
+
+#index_UP_button{
+  margin-top: 5px;
+  margin-left: 20px;
+  background: url('/images/shapeindex_up.png');
+}
+
+#index_DOWN_button{
+  margin-top: 5px;
+  margin-left: 20px;
+  background: url('/images/shapeindex_down.png');
+}
+
+.Buttons{
+  position: relative;
+  -webkit-appearance: none;
+  margin-top: 8px;
+
+  height:36px;
+  border: 2px solid #fff;
+  border-radius: 18px;
+
+  background: none;
+  font-size: 10pt;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+
+  cursor: pointer;
+}
+
+#my_selection{
+  margin-top: 5px;
+  margin-left: 1310px;/*Or 665px*/
+  margin-bottom: 10px;
+  width:180px;
+  height: 25px;
+}
+
+#edit_button{
+  margin-top: 10px;
+  margin-left: 1310px;/*Or 665px*/
+  margin-bottom: 20px;
+
+  width:180px;
+  border-color: #fff;
+  font-size: 15pt;
+  color: #fff;
+}
+
+#complete_button{
+  margin-left: 1300px;/*Or 665px*/
+  border-color: #89c3eb;
+  color: #89c3eb;
+  width:70px;
+  font-size: 10pt;
+}
+
+#undo_button{
+  margin-left: 5px;
+  border-color: #fff;
+  color: #fff;
+  width:60px;
+  font-size: 10pt;
+}
+
+#delete_button{
+  margin-left: 5px;
+  border-color: #ee827c;
+  color: #ee827c;
+  width:60px;
+  font-size: 10pt;
+}
+
